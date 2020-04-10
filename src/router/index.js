@@ -12,6 +12,10 @@ Vue.use(VueRouter)
       {
         path: '',
         component: () => import('@/views/Dashboard')
+      },
+      {
+        path: 'summary',
+        component: () => import('@/views/Summary')
       }
     ]
   },
