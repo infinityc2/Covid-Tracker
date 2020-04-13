@@ -104,10 +104,6 @@ export default {
         text: "Critical",
         value: "critical"
       },
-      {
-        text: "Details",
-        value: "details"
-      }
     ]
   }),
   async created() {

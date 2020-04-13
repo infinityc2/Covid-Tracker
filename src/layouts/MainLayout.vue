@@ -30,6 +30,15 @@
             <v-list-item-title>Summary</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+
+        <v-list-item to="/map" link color="primary">
+          <v-list-item-icon>
+            <v-icon>mdi-map</v-icon>
+          </v-list-item-icon>
+          <v-list-item-content>
+            <v-list-item-title>Map</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
       </v-list>
     </v-navigation-drawer>
 

@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 import axios from '@/plugins/axios'
 import vuetify from './plugins/vuetify';
+import 'leaflet/dist/leaflet.css';
 import '@babel/polyfill'
 
 Vue.config.productionTip = false
