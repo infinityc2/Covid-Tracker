@@ -1,8 +1,16 @@
 # covid-tracker
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/27dfe428-0119-4c5e-b2d0-715bdc54dd2f/deploy-status)](https://app.netlify.com/sites/covid-tracker-jd/deploys)
+
 ## Project setup
 ```
 yarn install
+```
+
+## Setup Environment
+```
+touch .env
+VUE_APP_API=http://example.com
 ```
 
 ### Compiles and hot-reloads for development
@@ -10,20 +18,6 @@ yarn install
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+#### Github
+> [Covid-Tracker](https://github.com/infinityc2/Covid-Tracker) Repository
 
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
