@@ -16,6 +16,10 @@ Vue.use(VueRouter)
       {
         path: 'summary',
         component: () => import('@/views/Summary')
+      },
+      {
+        path: 'map',
+        component: () => import('@/views/Map')
       }
     ]
   },
