@@ -46,7 +46,7 @@
       <v-app-bar-nav-icon @click="navbar = !navbar"></v-app-bar-nav-icon>
       <v-toolbar-title>Covid Tracker</v-toolbar-title>
       <v-spacer />
-      <v-btn text to="/github">
+      <v-btn text @click="githubUrl">
         <v-icon>mdi-arrow-top-right-thick</v-icon>Github
       </v-btn>
     </v-app-bar>
@@ -62,6 +62,11 @@ export default {
   data: () => ({
     navbar: false,
     mini: false
-  })
+  }),
+  methods: {
+    githubUrl() {
+      window.open('https://github.com/infinityc2/Covid-Tracker', '_blank')
+    }
+  }
 };
 </script>

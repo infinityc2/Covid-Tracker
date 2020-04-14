@@ -23,16 +23,10 @@ Vue.use(VueRouter)
       },
     ]
   },
-  {
-    path: '/github',
-    beforeEnter () {
-      location.href = "https://github.com/infinityc2/Covid-Tracker"
-    }
-  }
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes
 })
