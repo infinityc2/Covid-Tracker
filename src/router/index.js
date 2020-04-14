@@ -20,9 +20,15 @@ Vue.use(VueRouter)
       {
         path: 'map',
         component: () => import('@/views/Map')
-      }
+      },
     ]
   },
+  {
+    path: '/github',
+    beforeEnter () {
+      location.href = "https://github.com/infinityc2/Covid-Tracker"
+    }
+  }
 ]
 
 const router = new VueRouter({

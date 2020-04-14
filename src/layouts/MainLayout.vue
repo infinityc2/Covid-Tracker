@@ -7,7 +7,7 @@
           <v-btn icon @click.stop="mini = !mini">
             <v-icon v-if="!mini">mdi-chevron-left</v-icon>
             <v-icon v-else>mdi-chevron-right</v-icon>
-          </v-btn> 
+          </v-btn>
         </v-list-item-avatar>
         <v-list-item-title>Covid Tracker</v-list-item-title>
       </v-list-item>
@@ -46,6 +46,9 @@
       <v-app-bar-nav-icon @click="navbar = !navbar"></v-app-bar-nav-icon>
       <v-toolbar-title>Covid Tracker</v-toolbar-title>
       <v-spacer />
+      <v-btn text to="/github">
+        <v-icon>mdi-arrow-top-right-thick</v-icon>Github
+      </v-btn>
     </v-app-bar>
 
     <v-content>
